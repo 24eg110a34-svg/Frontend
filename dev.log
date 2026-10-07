@@ -1,0 +1,90 @@
+
+> hospital-bed-tracker-frontend@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m1007[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m8:33:00 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:33:00 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:33:08 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:38:46 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:39:39 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:39:46 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx, /src/index.css[22m
+[2m8:40:03 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx, /src/index.css[22m
+[2m8:40:13 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Topbar.jsx, /src/index.css[22m
+[2m8:40:18 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Topbar.jsx, /src/index.css[22m
+[2m8:40:46 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WardMap3D.jsx, /src/index.css, /src/components/ui.jsx, /src/components/GlobalSearch.jsx, /src/pages/Triage.jsx, /src/pages/Reservations.jsx, /src/pages/Notifications.jsx, /src/pages/Allocations.jsx, /src/pages/AmbulanceTracking.jsx, /src/pages/AuditLogs.jsx, /src/pages/PatientTimeline.jsx, /src/pages/Patients.jsx, /src/pages/BedManagement.jsx, /src/components/BedCard.jsx[22m
+[2m8:40:56 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WardMap3D.jsx, /src/index.css[22m
+[2m8:41:04 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WardMap3D.jsx, /src/index.css[22m
+[2m8:42:40 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:42:53 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:43:04 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:43:14 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:43:46 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Topbar.jsx, /src/index.css[22m
+[2m8:46:28 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:46:36 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:46:43 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:47:17 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx, /src/index.css[22m
+[2m8:48:54 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx, /src/index.css[22m
+[2m8:49:05 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CinematicHero.jsx, /src/index.css[22m
+[2m8:53:57 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Topbar.jsx, /src/index.css[22m
+[2m8:54:07 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CinematicHero.jsx, /src/index.css[22m
+[2m8:58:48 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m8:59:06 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m9:01:33 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m9:01:50 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/index.css[22m
+[2m9:02:53 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/index.css[22m
+[2m9:03:12 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Sidebar.jsx, /src/index.css[22m
+[2m9:03:28 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Sidebar.jsx, /src/index.css[22m
+[2m9:03:51 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Sidebar.jsx, /src/index.css[22m
+[2m9:04:12 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Sidebar.jsx, /src/index.css[22m
+[2m9:04:27 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Sidebar.jsx, /src/index.css[22m
+[2m9:04:49 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Topbar.jsx, /src/index.css[22m
+[2m9:07:15 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WardMap3D.jsx, /src/index.css, /src/context/HospitalContext.jsx, /src/components/Topbar.jsx, /src/components/GlobalSearch.jsx, /src/pages/Dashboard.jsx, /src/pages/Triage.jsx, /src/pages/Wards.jsx, /src/pages/Reservations.jsx, /src/pages/Notifications.jsx, /src/pages/Allocations.jsx, /src/pages/AmbulanceTracking.jsx, /src/pages/Resources.jsx, /src/pages/AuditLogs.jsx, /src/pages/Login.jsx, /src/pages/Settings.jsx, /src/pages/PatientTimeline.jsx, /src/pages/Patients.jsx, /src/pages/Analytics.jsx, /src/pages/BedManagement.jsx[22m
+[2m9:07:45 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m9:07:59 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/index.css[22m
+[2m9:08:24 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Patients.jsx, /src/index.css[22m
+[2m9:08:38 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Patients.jsx, /src/index.css[22m
+[2m9:08:53 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Patients.jsx, /src/index.css[22m
+[2m9:09:08 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Patients.jsx, /src/index.css[22m
+[2m9:21:25 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:21:56 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:21:56 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:22:18 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:23:30 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:27:20 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:28:26 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:36:19 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m9:36:36 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m9:36:57 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/index.css[22m
+[2m9:37:17 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Patients.jsx, /src/pages/PatientRecord.jsx[22m
+[2m9:38:10 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:38:25 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:38:44 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:39:16 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:39:59 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:40:17 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:40:36 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:40:54 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:43:39 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m9:44:23 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/PatientReport.jsx, /src/index.css[22m
+[2m9:44:41 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Patients.jsx, /src/pages/PatientRecord.jsx[22m
+[2m9:49:02 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/PatientRecord.jsx[22m
+[2m9:49:18 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/PatientRecord.jsx[22m
+[2m9:49:33 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/PatientReport.jsx, /src/index.css[22m
+[2m9:49:46 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/PatientReport.jsx, /src/index.css[22m
+[2m9:50:18 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m9:51:28 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/PatientRecord.jsx, /src/index.css[22m
+[2m9:54:58 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Patients.jsx, /src/pages/PatientRecord.jsx[22m
+[2m11:35:07 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m11:35:20 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m11:36:09 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WardMap3D.jsx, /src/index.css[22m
+[2m11:36:23 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WardMap3D.jsx, /src/index.css[22m
+[2m11:36:36 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WardMap3D.jsx, /src/index.css[22m
+[2m11:37:20 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ui.jsx, /src/index.css[22m
+[2m11:37:38 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx, /src/index.css[22m
+[2m11:38:08 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx, /src/index.css[22m
