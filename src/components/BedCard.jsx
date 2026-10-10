@@ -10,6 +10,17 @@ const features = [
   { key: 'hasDialysis', label: 'Dialysis', Icon: Droplets },
 ];
 
+const STATUS_TINTS = {
+  AVAILABLE: 'rgba(16, 185, 129, 0.6)',
+  OCCUPIED: 'rgba(59, 130, 246, 0.55)',
+  RESERVED: 'rgba(139, 92, 246, 0.55)',
+  CLEANING: 'rgba(245, 158, 11, 0.6)',
+  MAINTENANCE: 'rgba(100, 116, 139, 0.5)',
+  BLOCKED: 'rgba(51, 65, 85, 0.55)',
+};
+
+const statusTint = (status) => STATUS_TINTS[status] || 'rgba(37, 99, 235, 0.5)';
+
 export default function BedCard({ bed, actions, onSelect }) {
   const prevStatus = useRef(bed?.status);
   const [flip, setFlip] = useState(0);
@@ -34,7 +45,8 @@ export default function BedCard({ bed, actions, onSelect }) {
       onKeyDown={onSelect ? (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onSelect(bed); } } : undefined}
       role={onSelect ? 'button' : undefined}
       tabIndex={onSelect ? 0 : undefined}
-      className={`cc-bed-tile relative rounded-card border ${token.tile} ${token.glow} ${isMuted ? 'opacity-75 saturate-50' : ''} ${onSelect ? 'cursor-pointer' : ''}`}
+      style={flip > 0 ? { '--cc-status-tint': statusTint(bed.status) } : undefined}
+      className={`cc-bed-tile relative rounded-card border ${token.tile} ${token.glow} ${isMuted ? 'opacity-75 saturate-50' : ''} ${onSelect ? 'cursor-pointer' : ''} ${flip > 0 ? 'cc-status-change' : ''}`}
     >
       <div key={flip} className={flip > 0 ? 'animate-bed-flip' : ''}>
       <div className="absolute left-3 right-3 top-0 h-[3px] rounded-b-full opacity-80" style={{ background: 'currentColor' }} aria-hidden="true">

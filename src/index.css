@@ -210,6 +210,15 @@ h1, h2, h3, h4 {
   100% { transform: translateY(0); }
 }
 
+/* Bed status transition: a bed that has just been vacated or released pulses its own token
+   colour, so housekeeping turnaround reads as movement through the pipeline rather than as a
+   cell quietly changing its label. Used with the cc-status-swap utility below. */
+@keyframes cc-status-change {
+  0% { transform: scale(1); box-shadow: inset 0 0 0 0 transparent; }
+  28% { transform: scale(1.028); box-shadow: inset 0 0 0 2px var(--cc-status-tint, rgba(37, 99, 235, 0.55)); }
+  100% { transform: scale(1); box-shadow: inset 0 0 0 0 transparent; }
+}
+
 .animate-page-in { animation: cc-page-in 0.3s var(--cc-ease) backwards; }
 .animate-panel-in { animation: cc-panel-in 0.34s var(--cc-ease) backwards; }
 .animate-feed-in { animation: cc-feed-in 0.32s var(--cc-ease) backwards; }
@@ -265,6 +274,9 @@ h1, h2, h3, h4 {
   border-right-color: transparent;
   animation: cc-spin 0.66s linear infinite;
 }
+
+/* ---- bed status transition, fires once when a bed changes status ---- */
+.cc-status-change { animation: cc-status-change 0.9s var(--cc-ease) 1; }
 
 /* ---- value tick on change ---- */
 .cc-tick { display: inline-block; animation: cc-tick 0.34s var(--cc-ease) 1; }

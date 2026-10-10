@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { patientService, errorMessage } from '../services/api';
 import { useHospital } from '../context/HospitalContext';
 import useLiveData from '../hooks/useLiveData';
+import useFlipList from '../hooks/useFlipList';
 import Modal from '../components/Modal';
 import { PageHeader, Loading, ErrorState, EmptyState, MetricCard, TriageBadge, PatientStatusBadge } from '../components/ui';
 import { TRIAGE_LABELS, formatWait, formatTime, formatDateTime, BED_TYPES, WARD_TYPES } from '../utils/constants';
@@ -16,6 +17,8 @@ const emptyForm = {
   requiresVentilator: false, requiresOxygen: false, requiresCardiacMonitor: false,
   requiresIsolation: false, requiresDialysis: false,
 };
+
+const patientId = (patient) => patient.id;
 
 export default function Triage() {
   const { can, pushToast } = useHospital();
@@ -89,6 +92,8 @@ export default function Triage() {
     })
     .sort((a, b) => (a.triageLevel || 99) - (b.triageLevel || 99) || (a.arrivalTime || '') .localeCompare(b.arrivalTime || ''));
 
+  const flipRef = useFlipList(sorted, patientId);
+
   const counts = {
     total: patients.length,
     critical: patients.filter((p) => p.triageLevel === 1).length,
@@ -161,6 +166,7 @@ export default function Triage() {
             return (
               <div
                 key={patient.id}
+                ref={flipRef(patient.id)}
                 style={{ '--i': Math.min(index, 12) }}
                 className={`bg-white rounded-2xl border p-4 flex flex-wrap lg:flex-nowrap gap-4 items-center justify-between ${
                   isLongWait ? 'border-rose-300 bg-rose-50/40' : isWarning ? 'border-amber-300 bg-amber-50/30' : 'border-slate-200'
