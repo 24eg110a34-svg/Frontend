@@ -212,7 +212,7 @@ h1, h2, h3, h4 {
 
 /* Bed status transition: a bed that has just been vacated or released pulses its own token
    colour, so housekeeping turnaround reads as movement through the pipeline rather than as a
-   cell quietly changing its label. Used with the cc-status-swap utility below. */
+   cell quietly changing its label. Driven by the cc-status-change utility below. */
 @keyframes cc-status-change {
   0% { transform: scale(1); box-shadow: inset 0 0 0 0 transparent; }
   28% { transform: scale(1.028); box-shadow: inset 0 0 0 2px var(--cc-status-tint, rgba(37, 99, 235, 0.55)); }

@@ -47,6 +47,22 @@ export default function Triage() {
 
   useLiveData(load);
 
+  const sorted = [...patients]
+    .filter((p) => {
+      const matchTriage = triageFilter === 'ALL' || String(p.triageLevel) === triageFilter;
+      const q = search.toLowerCase();
+      const matchSearch = !q
+        || p.fullName?.toLowerCase().includes(q)
+        || p.medicalRecordNumber?.toLowerCase().includes(q);
+      return matchTriage && matchSearch;
+    })
+    .sort((a, b) => (a.triageLevel || 99) - (b.triageLevel || 99) || (a.arrivalTime || '') .localeCompare(b.arrivalTime || ''));
+
+  // Must stay above the loading and error early returns below. Every hook has to run on every
+  // render in the same order, and returning first would skip this one while loading, which
+  // React reports as minified error #310.
+  const flipRef = useFlipList(sorted, patientId);
+
   const submit = async (e) => {
     e.preventDefault();
     setSaving(true);
@@ -80,19 +96,6 @@ export default function Triage() {
 
   if (loading) return <Loading label="Loading triage queue" />;
   if (error) return <ErrorState message={error} onRetry={load} />;
-
-  const sorted = [...patients]
-    .filter((p) => {
-      const matchTriage = triageFilter === 'ALL' || String(p.triageLevel) === triageFilter;
-      const q = search.toLowerCase();
-      const matchSearch = !q
-        || p.fullName?.toLowerCase().includes(q)
-        || p.medicalRecordNumber?.toLowerCase().includes(q);
-      return matchTriage && matchSearch;
-    })
-    .sort((a, b) => (a.triageLevel || 99) - (b.triageLevel || 99) || (a.arrivalTime || '') .localeCompare(b.arrivalTime || ''));
-
-  const flipRef = useFlipList(sorted, patientId);
 
   const counts = {
     total: patients.length,
